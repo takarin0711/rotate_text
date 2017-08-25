@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/rotate_text2.unity
+  isLoaded: 1
+  isActive: 1
