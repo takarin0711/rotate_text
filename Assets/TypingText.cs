@@ -2,25 +2,26 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using HoloToolkit.Unity;
 
-public class TypingText : MonoBehaviour
+public class TypingText : Singleton<TypingText>
 {
     TypingSystem ts;
     public String text;
     public TextMesh alphabetTextMesh;
 
-    void UpdateText()
+    /*void UpdateText()
     {
         alphabetTextMesh.text = "<color=white>" + ts.GetInputedKey() + "</color>" + ts.GetRestKey();
         //alphabetTextMesh.text = "aiueo";
-    }
+    }*/
 
     // Use this for initialization
     void Start()
     {
         ts = new TypingSystem();
         ts.SetInputString("");
-        UpdateText();
+        // UpdateText();
 
     }
 

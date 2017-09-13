@@ -38,7 +38,6 @@ GameObject:
   - component: {fileID: 4535948496133564}
   - component: {fileID: 23125766763874164}
   - component: {fileID: 114698351421843760}
-  - component: {fileID: 114723941277718220}
   m_Layer: 0
   m_Name: NewText
   m_TagString: Untagged
@@ -144,7 +143,7 @@ TextMesh:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1144172608698690}
-  m_Text: 
+  m_Text: <color=white>std</color>
   m_OffsetZ: 0
   m_CharacterSize: 0.2
   m_LineSpacing: 1
@@ -170,16 +169,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PivotAxis: 1
---- !u!114 &114723941277718220
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1455115785042388}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3cc60a0095cfd040a6f12c9e1b91806, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  text: 
-  alphabetTextMesh: {fileID: 102360816067055016}
