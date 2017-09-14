@@ -14,7 +14,10 @@ public class RcvAirTap : MonoBehaviour, IInputClickHandler {
     public void OnInputClicked(InputClickedEventData eventData)
     {
         GameObject text = GameObject.Instantiate(original);
-        TypingText.Instance.alphabetTextMesh = alphabetTextMesh;
+        text.AddComponent<TextMesh>();
+        //text.GetComponent<TextMesh>().text = "";
+        TypingText.Instance.text = "";
+        TypingText.Instance.alphabetTextMesh = text.GetComponent<TextMesh>();
 
         text.transform.position = Camera.main.transform.TransformPoint(0, 0, 1.2f);
         list.Add(text);

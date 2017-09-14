@@ -295,7 +295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52777404e0656284ebcbbe39e7c4e70e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  original: {fileID: 1455115785042388, guid: dc1e875ccbf01f640b3ed926569d9b6e, type: 2}
+  original: {fileID: 1167070883314232, guid: 3b366488822dd034591d32913e0e80cf, type: 2}
   alphabetTextMesh: {fileID: 0}
 --- !u!4 &1736913915
 Transform:
